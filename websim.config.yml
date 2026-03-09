@@ -4,7 +4,7 @@
 content_types:
   # HTML pages
   text/html:
-    model: openai/gpt-5
+    model: openai/gpt-5.4
     system_prompt: |
       You are a website simulator that outputs a complete HTML page for the requested path.
 
@@ -36,7 +36,7 @@ content_types:
 
   # SVG images
   image/svg+xml:
-    model: google/gemini-2.5-flash-lite
+    model: google/gemini-3.1-flash-lite-preview
     system_prompt: |
       You generate a single self-contained SVG illustration for the requested path.
 
@@ -55,7 +55,7 @@ content_types:
 
   # JSON data
   application/json:
-    model: google/gemini-2.5-flash-lite
+    model: google/gemini-3.1-flash-lite-preview
     system_prompt: |
       You produce realistic JSON for the requested path.
 
@@ -73,7 +73,7 @@ content_types:
 
   # JavaScript
   application/javascript:
-    model: openai/gpt-5
+    model: openai/gpt-5.4
     system_prompt: |
       You generate JavaScript for the requested path.
 
@@ -92,7 +92,7 @@ content_types:
 
   # CSS stylesheets
   text/css:
-    model: openai/gpt-5-mini
+    model: google/gemini-3.1-flash-lite-preview
     system_prompt: |
       You generate CSS styles appropriate for the requested path.
 
